@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
-  s.name        = "multipart_body"
+  s.name        = "google_multipart_body"
   s.version     = "0.2.0"
-  s.author      = "Steve Smith"
-  s.email       = "gems@dynedge.co.uk"
-  s.homepage    = "http://github.com/cloudmailin/multipart_body"
-  s.description = "A ruby library to create multipart bodies."
-  s.summary     = "MultipartBody allows you to create consistant multipart bodies"
+  s.author      = "dsgnrd"
+  s.email       = "hello@neverexplored.com"
+  s.homepage    = "https://github.com/dsignr/google_multipart_body"
+  s.description = "A ruby library to create multipart bodies for Google APIs."
+  s.summary     = "GoogleMultipartBody allows you to create consistant multipart bodies for Google's APIs. The difference between the original gem and this one is that certain headers are ignored. Credits to the original author."
 
   s.platform = Gem::Platform::RUBY
   s.has_rdoc = false
